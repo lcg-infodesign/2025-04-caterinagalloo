@@ -163,7 +163,7 @@ function windowResized() {
 
 function mousePressed() {
   if (hoveredRow !== -1) {
-    let newURL = "Page2/page2.html?row=" + hoveredRow;
+    let newURL = "page2/page2.html?row=" + hoveredRow;
     window.location.href = newURL; 
   }
 }
